@@ -25,5 +25,7 @@ cd tkinter-gui
 python main.py
 ```
 
-## Screenshots
-![Screenshot of Application](src/screenshot.png) ![Screenshot of Application](src/screenshot2.png) ![Screenshot of Application](src/screenshot3.png)
+## Screenshot
+![Screenshot of Application](src/screenshot4.png)
+
+<!--Shows misspelled part of UI: ![Screenshot of Application](src/screenshot.png) ![Screenshot of Application](src/screenshot2.png) ![Screenshot of Application](src/screenshot3.png) -->
