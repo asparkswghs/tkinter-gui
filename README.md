@@ -4,6 +4,19 @@
 
 Solves the quadratic formula.
 
+## Dependencies
+- tkinter
+- pillow
+
+<details>
+
+On most distributions, you need only install tkinter:
+
+- Alpine: `sudo apk add python3-tkinter`
+- Fedora: `sudo dnf install python3-tkinter`
+
+</details>
+
 ## Usage
 <!-- Flatpak my beloved, but alas... windows >:( -->
 ```bash
