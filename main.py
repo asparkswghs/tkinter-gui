@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-from re import L
 import tkinter
 import math
 import time
