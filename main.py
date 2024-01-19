@@ -67,7 +67,7 @@ if sys.platform == 'win32' or sys.platform == 'msys' or sys.platform == 'cygwin'
 call_validate = window.register(validate)
 
 ## Labels
-label_howto = tkinter.Label(window, text = 'Quadtratic Formula\n\nInput your variables from a quadratic equation to get x.\nEnsure your equation is in the following format: \n')
+label_howto = tkinter.Label(window, text = 'Quadratic Formula\n\nInput your variables from a quadratic equation to get x.\nEnsure your equation is in the following format: \n')
 label_equation = tkinter.Label(window, text = 'ax² + bx + c = 0\n', font = 'Monospace')
 label_a = tkinter.Label(window, text = 'a =')
 label_b = tkinter.Label(window, text = 'b =')
