@@ -3,6 +3,7 @@ from re import L
 import tkinter
 import math
 import time
+import sys
 from PIL import ImageTk, Image
 
 # Functions
@@ -60,7 +61,8 @@ window = tkinter.Tk()
 window.title("Quadratic Formula")
 window.geometry("300x350")
 window.minsize(300, 350)
-window.iconbitmap('src/icon.ico')
+if sys.platform == 'win32' or sys.platform == 'msys' or sys.platform == 'cygwin':
+    window.iconbitmap('src/icon.ico')
 
 call_validate = window.register(validate)
 
